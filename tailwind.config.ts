@@ -67,10 +67,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				burgundy: '#8C1C13',
-				cream: '#F2E8CF',
-				navy: '#2B4162',
-				gold: '#E8AA14',
+				// New elegant color palette
+				softpink: '#FFDEE2',
+				peach: '#FDE1D3',
+				rose: '#F8C8DC',
+				lilac: '#E6D7F2',
+				cream: '#FFFBF0',
+				pearl: '#F6F6F6',
+				blush: '#F2C4C4',
+				mauve: '#E8D3E3',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -136,3 +141,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

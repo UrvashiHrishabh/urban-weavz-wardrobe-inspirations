@@ -22,9 +22,9 @@ const ProductSection = ({ title, subtitle, products, id }: ProductSectionProps) 
     <section id={id} className="py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy">{title}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary">{title}</h2>
           {subtitle && (
-            <p className="text-gray-600 mt-2 max-w-2xl mx-auto">{subtitle}</p>
+            <p className="text-muted-foreground mt-2 max-w-2xl mx-auto">{subtitle}</p>
           )}
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

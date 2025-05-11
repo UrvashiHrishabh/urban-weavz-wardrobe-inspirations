@@ -27,22 +27,22 @@ const ProductCard = ({ id, name, price, image, category }: ProductCardProps) => 
           <Button
             variant="ghost"
             size="icon"
-            className="rounded-full bg-white/80 backdrop-blur-sm hover:bg-white"
+            className="rounded-full bg-white/80 backdrop-blur-sm hover:bg-white text-primary"
           >
             <Heart className="h-5 w-5" />
           </Button>
         </div>
       </div>
       <div className="p-4">
-        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">
+        <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">
           {category}
         </div>
         <Link to={`/product/${id}`}>
-          <h3 className="font-medium text-lg mb-1 hover:text-burgundy transition-colors">
+          <h3 className="font-medium text-lg mb-1 hover:text-primary transition-colors">
             {name}
           </h3>
         </Link>
-        <div className="text-burgundy font-semibold">{price}</div>
+        <div className="text-primary font-semibold">{price}</div>
       </div>
     </div>
   );
